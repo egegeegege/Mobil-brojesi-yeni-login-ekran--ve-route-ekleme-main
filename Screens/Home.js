@@ -94,8 +94,6 @@ const flight = [
 export default function HomeScreen ({navigation}) {
   return (
     <View style={styles.container}>
-  
-      <StatusBar barStyle="dark-content" />
 
       <FlatList
         data={flight}
